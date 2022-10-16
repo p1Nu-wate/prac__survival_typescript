@@ -28,6 +28,7 @@ const IndexPage = () => {
             <button onClick={handleClick}>きょうのにゃんこ🐱</button>
             <div style={{ marginTop: 8 }}>
                 <img src={{ catImageUrl }}  />
+                {/* エラー発生： 型 '{ catImageUrl: string; }' を型 'string' に割り当てることはできません。*/}
             </div>
         </div>
     );
